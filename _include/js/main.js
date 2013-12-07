@@ -418,7 +418,7 @@ $(document).ready(function(){
 	
 	// Preload the page with jPreLoader
 	$('body').jpreLoader({
-		splashID: "#jSplash",
+		splashID: "#jSplas",
 		showSplash: true,
 		showPercentage: true,
 		autoClose: true,

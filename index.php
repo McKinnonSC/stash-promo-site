@@ -86,7 +86,7 @@
 
 <body>
 
-<!-- This section is for Splash Screen -->
+<!-- This section is for Splash Screen --
 <div class="ole">
 <section id="jSplash">
 	<div id="circle"></div>
@@ -139,6 +139,7 @@
             <h3>What is stash?</h3>
                 <p class='text-justify'>Stash is an Open Source Code project aimed at improving upon other TV recording and storing database systems that are used in educational facilities, most particularly in the state of Victoria, Australia. The project stems from both necessity and also a new approach to educate students about digital technologies, by letting them make something together. On top of this, we are adopting a cloud-based model of computing for our software which is a growing trend worldwide, and this is also helpful in helping students to think about working in a different paradigm.</p>
             <h3>Why call it Stash?</h3>
+            <div id='jSplas' class='loadspin'></div>
                 <p class='text-justify'>We decided to call it stash because the first task we had was to make names and logos for it and then they were all voted on by everyone involved, and stash was the name that just caught on.</p>
             </div>
         </div>

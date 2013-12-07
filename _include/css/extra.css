@@ -2,3 +2,30 @@
 .text-justify	{
 	text-align: justify;
 }
+
+.loadspin {
+  position: absolute;
+  margin: auto;
+  left: 0; right: 0; top: 0; bottom: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: solid 2px #2F3238;
+  border-right: solid 2px rgba(255,128,0,0.75);
+  border-bottom: solid 2px rgba(255,128,0,0.5);
+  border-top: solid 2px rgba(255,128,0,1);
+  -webkit-animation: spin 0.3s linear infinite;
+}
+
+@-webkit-keyframes spin
+{
+0% {
+  -webkit-transform: rotate(360deg);
+  }
+50% {
+  -webkit-transform: rotate(180deg);
+  }
+100% {
+  -webkit-transform: rotate(0deg);
+  }
+}
